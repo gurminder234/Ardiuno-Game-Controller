@@ -9,7 +9,7 @@ while 1:
     incoming = str(ArduinoSerial.readline())  # read
     print(incoming)
 
-
+#Just Change the variables and required keys according to your own need
     if 'W' in incoming:
         pydirectinput.keyUp('up')
 
